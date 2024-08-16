@@ -9,7 +9,7 @@ app = FastAPI()
 # Allow CORS from all origins for development purposes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["summarize-d2mh8poo4-vikas-projects-eb71ecaa.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
