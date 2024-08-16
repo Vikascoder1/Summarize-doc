@@ -1,0 +1,26 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - fastapi
+  - uvicorn
+  - pydantic
+  - transformers
+  - torch
+  - numpy
+  - python-multipart
+  - aiofiles
+  - fastapi-cors
+  - scikit-learn
+  - jinja2
+  - gunicorn
+  # - nodejs  # Include this if you want to install Node.js via Conda
+  - pip:
+      - requests
+      - python-docx
+      - pypdf2
+      - pdfminer.six
+      - python-dotenv

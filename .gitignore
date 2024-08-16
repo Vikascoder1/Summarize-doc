@@ -1,0 +1,20 @@
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Vercel deployment
+.vercel/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
