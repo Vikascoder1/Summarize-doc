@@ -89,22 +89,18 @@ Community Resources: Leveraged documentation and forums to solve specific issues
 Libraries and Tools Used
 FastAPI: The web framework used for building the backend.
 
-FastAPI Documentation
+[FastAPI Documentation](https://fastapi.tiangolo.com/)
+
 React.js: The JavaScript library used for building the frontend.
 
-React.js Documentation
+[React Documentation](https://reactjs.org/docs/getting-started.html)
+
 PyMuPDF: Used for extracting text from PDF documents.
 
-PyMuPDF Documentation
+[PyMuPDF Documentation](https://pymupdf.readthedocs.io/)
+
 python-docx: Used for extracting text from DOCX files.
 
-python-docx Documentation
-Vercel: Platform used for deploying the frontend.
-
-Vercel Documentation
-Render/Heroku: Platforms considered/used for deploying the backend.
-
-Render Documentation
-Heroku Documentation
+[python-docx Documentation](https://python-docx.readthedocs.io/en/latest/)
 
 ********************************************************************************
