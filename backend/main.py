@@ -9,7 +9,7 @@ app = FastAPI()
 # Allow CORS from all origins for development purposes
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://summarize-doc-1.onrender.com"], 
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
