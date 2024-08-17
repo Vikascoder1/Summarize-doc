@@ -166,7 +166,7 @@ function App() {
   const [loading, setLoading] = useState(false); // State for loading spinner
 
   // Retrieve the API URL from environment variables
-  const API_URL = process.env.REACT_APP_API_URL;
+  //const API_URL = process.env.REACT_APP_API_URL;
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
@@ -186,7 +186,7 @@ function App() {
       setError(""); // Clear any previous errors
 
       // Upload the file
-      const response = await fetch(`${API_URL}/api/upload`, {
+      const response = await fetch("https://summarize-doc.onrender.com/api/upload", {
         method: "POST",
         body: formData,
       });
@@ -194,7 +194,7 @@ function App() {
       const data = await response.json();
 
       // Get the summary
-      const summarizeResponse = await fetch(`${API_URL}/api/summarize`, {
+      const summarizeResponse = await fetch("https://summarize-doc.onrender.com/api/summarize", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
