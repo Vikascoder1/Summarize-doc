@@ -1,8 +1,15 @@
+import os 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 from summarize import summarize_document
+
+UPLOAD_DIRECTORY = "uploads"
+
+# Ensure the upload directory exists
+if not os.path.exists(UPLOAD_DIRECTORY):
+    os.makedirs(UPLOAD_DIRECTORY)
 
 app = FastAPI()
 
