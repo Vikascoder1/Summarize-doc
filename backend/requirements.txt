@@ -1,6 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 transformers
 pdfplumber
 python-docx
 gunicorn
+PyMuPDF
